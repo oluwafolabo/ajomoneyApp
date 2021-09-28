@@ -151,16 +151,9 @@ body{
     color: rgba(242, 242, 242, 1);
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .container-fluid{
-       
-    }
-}
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-    .container-fluid{
-        background-color: green;
+    
         width: 100%;
     }
    
@@ -200,12 +193,12 @@ body{
     }
     .Input input{
        
-        width: 400px;
+        width: 374px;
         height: 60px;
         margin-left: 20px;
     }
     .Forgot{
-        margin-left: 208px;
+        margin-left: 218px;
         font-size: 14px;
     }
     .SignInContainer{
@@ -218,6 +211,11 @@ body{
     .SignInContainer-word{
         left:-30px
     }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+   
  }
 
 /*// Large devices (desktops, 992px and up)*/
